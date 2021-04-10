@@ -1,160 +1,165 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Resume of Alexandra Knopf</title>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="Resume-old.css">
+    <link type="text/css" rel="stylesheet" href="Resume.css">
 </head>
-
 <body>
-    <div class="paper">
         <div class="header">
             <h1>Alexandra Knopf</h1>
             <h3>xyious@gmail.com</h3>
             <h3>(479) 721-4352</h3>
         </div>
         <div class="goal">
-            <p>Solving problems with beautiful code</p>
+            <p>Continuous learning of new technologies and solving problems with beautiful code</p>
         </div>
         <div id="skills">
-            <h2>Key Skills:</h2>
-            <div class="left">&nbsp;</div>
-            <div class="center">
-                <ul>
-                    <li>Javascript, Node, React</li>
-                    <li>C and C++</li>
-                    <li>SQL Database/Query Design</li>
-                    <li>PHP, HTML, CSS</li>
-                    <li>Linux Server Administration</li>
-                </ul>
-            </div>
+            <h2>Key Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="25%">Experience</th>
+                        <th width="25%">Programming Languages</th>
+                        <th>Technologies</th>
+                        <th>Operating Systems</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5+ Years</td>
+                        <td>C, C++</td>
+                        <td>PostgreSQL, MySQL, MSSQL, Information Security</td>
+                        <td>Windows 10, Linux</td>
+                    </tr>
+                    <tr>
+                        <td>1+ Years</td>
+                        <td>Javascript, Node, React, C#</td>
+                        <td>Informix</td>
+                        <td>MacOS</td>
+                    </tr>
+                    <tr>
+                        <td>Proficient</td>
+                        <td>Python, Kotlin, Ruby on Rails</td>
+                        <td>Azure, CosmosDB</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div id="experience">
-            <h2>Experience:</h2>
-            <div class="center-left">
-                <h4>2017 - now:</h4><span>Walmart Global Technology Bentonville, Arkansas</span>
-                <ul>
-                    <li>Helped create a cloud application in React</li>
-                    <li>Implemented an automated CI/CD pipeline with unit and integration tests. Created unit tests in
-                        Jest/Enzyme. Created integration tests in cypress. Tied it all together with Looper (in house
-                        extension of Jenkins)</li>
-                    <li>Moved several applications from old build tools and SVN to Jenkins and Github. Refactored code
-                        of 4 closely related projects to use shared code instead of duplicated code. Replaced a lot of C
-                        code with C++ code resulting in a significant increase in performance and stability.</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>Associate Software Engineer</h4>
-            </div>
-            <div class="center-left">
-                <h4>2016 - 2017:</h4><span>Walmart Berryville, Arkansas</span>
-                <ul>
-                    <li>Lead a team of 15 employees</li>
-                    <li>Implemented processes of efficient unloading and stocking of products</li>
-                    <li>Received training at the Walmart Academy on Merchandising, communication, marketing and conflict
-                        resolution</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>CAP Team 2 Supervisor</h4>
-            </div>
-            <div class="center-left">
-                <h4>2015 - 2016:</h4><span>Walmart Berryville, Arkansas</span>
-                <ul>
-                    <li>interim position while establishing residency in the US after immigrating from Germany.</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>Unloader</h4>
-            </div>
-            <div class="center-left">
-                <h4>2012 ­- 2014:</h4><span>e­Cigar GmbH Neustadt a. Rbge, Germany</span>
-                <ul>
-                    <li>Created a page that lists the best selling items and integrated it into the online shop system.
-                        A query joining four database tables of the shop system returned every item that was purchased,
-                        grouped by item number. The returned rows were added up and the resulting array was sorted by
-                        total sales and later by sales in the past 30, 60 and 180 days.</li>
-                    <li>Wrote a page listing all items, calculating the minimum instock levels based on sales and
-                        delivery time. The php script would get all sales within the past 180 days from the database,
-                        add the sales and sort the array by item name. Then it would output a table of all items and
-                        highlight the instock levels of items with higher sales in 3 months than instock level orange
-                        and the ones with more sales in 30 days than instock level red.</li>
-                    <li>Made a shell script that saved a copy of the database every day. A simple bash script used
-                        mysqladmin to dump the whole database into a file with a timestamp in the name. The script would
-                        then parse the backup directory and delete all backups that were over 7 days old and didn't have
-                        a 0 or 5 in the second "day" digit.</li>
-                    <li>Removed malicious Javascript from 50+ php pages that were altered when our server was hacked.
-                        Analyzed ftp and access logs and saved the important parts for the police.</li>
-                    <li>Made a mirror of the online stores virtual machine using an ubuntu server virtualized with KVM
-                        on an ubuntu server. Transfered changes made to the mirror to the production system.</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>Web Programmer/Admin</h4>
-            </div>
-            <div class="center-left">
-                <h4>2012 ­- 2012:</h4><span>Optimal Systems Hannover, Germany</span>
-                <ul>
-                    <li>Wrote software in C# .net that inserts a date and department before saving scanned mail as a
-                        pdf.</li>
-                    <li>Developed a program using windows communication foundation that would receive metadata about a
+            <h2>Experience</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="20%">2017 - now</th>
+                        <th>Walmart Global Technology Bentonville, Arkansas</th>
+                        <th width="26%">Analyst Software Engineer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="2">Created a microservice for drug information</td><td>Kotlin, Azure, CosmosDB</td></tr>
+                    <tr><td colspan="2">Implemented a feature for tracking information for prescription home delivery</td><td>C++</td></tr>
+                    <tr><td colspan="2">Implemented features for password rotation</td><td>Python</td></tr>
+                    <tr><td colspan="2">Helped create a cloud application in React</td><td>Node, React, Javascript</td></tr>
+                    <tr><td colspan="2">Implemented an automated Continuous Deployment pipeline with unit and integration tests</td><td>Jenkins, Jest</td></tr>
+                    <tr><td colspan="2">Refactored code of 4 closely related projects. Replaced C code with C++ in key functions to increase performance and stability.</td><td>C, C++</td></tr>
+                    <tr><td colspan="2">Completed InfoSec Ambassador training</td><td></td></tr>
+            </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="20%">2016 - 2017</th>
+                        <th>Walmart Berryville, Arkansas</th>
+                        <th width="26%">CAP Team 2 Supervisor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="2">Lead a team of 15 employees</td><td>&nbsp;</td></tr>
+                    <tr><td colspan="2">Implemented processes of efficient unloading and stocking of products</td><td></td></tr>
+                    <tr><td colspan="2">Received training at the Walmart Academy on Merchandising, communication, marketing and conflict
+                        resolution</td><td></td></tr>
+            </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="20%">2015 - 2016</th>
+                        <th>Walmart Berryville, Arkansas</th>
+                        <th width="26%">CAP Team 2 Associate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="2">Interim position while establishing residency in the US after immigrating from Germany.</td><td>&nbsp;</td></tr>
+            </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <th width="20%">2012 ­- 2014</th>
+                        <th>e­Cigar GmbH Neustadt a. Rbge, Germany</th>
+                        <th width="26%">Web Programmer</th>
+                    </tr>
+                    <tr><td colspan="2">Designed and implemented a page that lists the best selling products and integrated it into the online shop system.</td><td>PHP, MySQL</td></tr>
+                    <tr><td colspan="2">Designed and implemented a page listing all products currently for sale, color-coded by how urgently they need to be re-ordered</td><td>PHP, MySQL</td></tr>
+                    <tr><td colspan="2">Automated creating and deleting daily database backups</td><td>Bash, MySQL</td></tr>
+                    <tr><td colspan="2">Removed malicious Javascript from over 50 php pages after a cyber attack</td><td>RegEx, sed, Bash</td></tr>
+                    <tr><td colspan="2">Created a mirror of the production server</td><td>Linux, KVM</td></tr>
+            </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="20%">2012 ­- 2012</th>
+                        <th>Optimal Systems Vertriebs GmbH Hannover, Germany</th>
+                        <th width="26%">.net Programmer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="2">Wrote software in C# .net that inserts a date and department before saving scanned mail as a
+                        pdf.</td><td>C#</td></tr>
+                    <tr><td colspan="2">Developed a program using windows communication foundation that would receive metadata about a
                         scanned document over the network and transform the metadata to conform to our enterprise
-                        content management system's standards where the document and the metadata would be stored.</li>
-                    <li>Worked as level 2 support, finding sourcecode for software that was in use and troubleshooting
-                        the client's problems.</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>.net Programmer</h4>
-            </div>
-            <div class="center-left">
-                <h4>2008 -­ 2012:</h4><span>Self Employed</span>
-                <ul>
-                    <li>Administration of Linux Servers, setting up Apache with php and MySQL, PostgreSQL, Ruby on Rails
-                        and Nginx as a reverse proxy.</li>
-                    <li>Wrote a simple content management system using PHP and MySQL. Designed the resulting pages with
-                        HTML5 and CSS3.</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>Linux server administrator</h4>
-            </div>
-            <div class="center-left">
-                <h4>2007 -­ 2008:</h4><span>MHP Software GmbH Neustadt a. Rbge, Germany</span>
-                <ul>
-                    <li>Wrote a program in C# to compare different versions of our logistics software to list the
-                        changed files in an XML document.</li>
-                    <li>Created a couple of programs that would analyse changes in .ini files and change .ini files
-                        based on that analysis.</li>
-                    <li>Made a program that would analyse different versions of the MSSQL database for our logistics
-                        software and write changes in the schema into an XML document. Developed a small program that
-                        listed 5 database columns and had a checkbox that, if checked or unchecked, would set a flag in
-                        the MSSQL database.</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>.net Programmer</h4>
-            </div>
+                        content management system's standards where the document and the metadata would be stored.</td><td>C#</td></tr>
+            </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="20%">2008 -­ 2012</th>
+                        <th>Self Employed</th>
+                        <th width="26%">Full-Stack Programmer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="2">Administration of Linux Servers, setting up Apache with php and MySQL, PostgreSQL, Ruby on Rails
+                        and Nginx as a reverse proxy.</td><td>PHP, Ruby on Rails, MySQL, PostgreSQL</td></tr>
+                    <tr><td colspan="2">Wrote a simple content management system using PHP and MySQL. Designed the resulting pages with
+                        HTML5 and CSS3.</td><td>PHP</td></tr>
+            </tbody>
+            </table>
         </div>
         <div id="education">
-            <h2>Education:</h2>
-            <div class="center-left">
-                <h4>2012 -­ 2014:</h4><span>Berufsbildende Schulen Nienburg, Germany</span>
-                <ul>
-                    <li>Finished with a diploma that would be similar to an associate's degree.</li>
-                    <li>Object Oriented Programming</li>
-                    <li>Database Design and normalization</li>
-                    <li>Basic Accounting</li>
-                    <li>Basic Electrical Engineering</li>
-                </ul>
-            </div>
-            <div class="right-right">
-                <h4>Computer Science</h4>
-            </div>
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="20%">2012 -­ 2014</th>
+                        <th width="54%">Berufsbildende Schulen Nienburg, Germany</th>
+                        <th width="26%">Computer Science</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td colspan="2">Finished with a diploma that would be similar to an associate's degree.</td><td>&nbsp;</td></tr>
+                    <tr><td colspan="2">Object oriented programming</td><td>&nbsp;</td></tr>
+                    <tr><td colspan="2">Database design and normalization</td><td>&nbsp;</td></tr>
+                    <tr><td colspan="2">Basic accounting</td><td>&nbsp;</td></tr>
+                    <tr><td colspan="2">Basic electrical engineering</td><td>&nbsp;</td></tr>
+            </tbody>
+            </table>
         </div>
         <div id="languages">
-            <h2>Languages:</h2>
+            <h2>Languages</h2>
             <div class="center-left">
                 <ul>
                     <li>Fluent in English and German.</li>
@@ -162,16 +167,5 @@
             </div>
             <div class="right-right">&nbsp;</div>
         </div>
-        <div id="references">
-            <h2>References:</h2>
-            <div class="center-left">
-                <ul>
-                    <li>Available on request.</li>
-                </ul>
-            </div>
-            <div class="right-right"></div>
-        </div>
-    </div>
 </body>
-
 </html>
