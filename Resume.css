@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-    height: 125px;
+    height: 100px;
     border-bottom: 1px solid black;
     text-align: center;
 }
@@ -54,27 +54,7 @@ body {
 #experience {
     float: none;
     width: 100%;
-    height: 850px;
-}
-
-#education {
-    width: 100%;
-    height: 215px;
-    border-bottom: 1px solid black;
-    float: none;
-}
-
-#languages {
-    float: none;
-    width: 100%;
-    height: 130px;
-    border-bottom: 1px solid black;
-}
-
-#references {
-    float: none;
-    width: 100%;
-    height: 130px;
+    height: 600px;
 }
 
 h2 {
@@ -89,6 +69,7 @@ h1 {
 
 h3 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 table {
@@ -112,20 +93,8 @@ th {
       margin-bottom: 25px;
     }
 
-    #skills {
-        height: 240px;
-    }
-
     #experience {
-        height: 800px;
-    }
-
-    #education {
-        height: 225px;
-    }
-
-    #languages {
-        height: 110px;
+        height: 650px;
     }
 
     .center-left {
